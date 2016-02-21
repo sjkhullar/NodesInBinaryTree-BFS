@@ -4,8 +4,6 @@ package org.learn.Question;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import org.learn.PrepareTree.Node;
-
 public class CountNodes {
 	public static int countNodes(Node root) {
 		if (root == null) {
@@ -26,7 +24,7 @@ public class CountNodes {
 			}
 			nNodes++;
 		}
-		System.out.println("Nodes in Binary Tree is : " + nNodes);
+		System.out.println("Number of nodes in a binary tree : " + nNodes);
 		return nNodes;
 	}
 }
